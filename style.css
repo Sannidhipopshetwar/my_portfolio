@@ -1,0 +1,49 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  padding-top: 70px;
+}
+
+/* Unified aesthetic theme */
+.bg-custom {
+  background: linear-gradient(to right, #1f4037, #99f2c8); /* Teal-green gradient */
+}
+
+h2 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+img {
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cert-link {
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.cert-link:hover {
+  color: rgb(224, 92, 92);
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: rgb(224, 92, 92) !important;
+}
+
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.img{
+  height:50px;
+  width:50px;
+  background-color: transparent;
+}
+
